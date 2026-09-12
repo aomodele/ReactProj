@@ -13,6 +13,7 @@
   --color-social-hover: #f0f0f0;
   --color-floating-label: #5f6368;
   --color-white: #fff;
+  color-scheme: light;
 }
 .btn-icon{
   width: 30px;
@@ -61,12 +62,17 @@ body{
 .form-header{
   position: relative;
   z-index: 1;
+
 }
 .form-header p{
   color: var(--color-placeholder);
+   
+  color: var(--color-text);                /* force dark text */
 }
 .form-header h1{
   font-size: 32px;
+  
+  color: var(--color-text);                /* force dark text */
 }
 .form-box{
   display: flex;
@@ -85,6 +91,8 @@ body{
   border-radius: 6px;
   width: 100%;
   font-size: 18px;
+ 
+  color: var(--color-text);                /* force dark text */
 }
 #password{
   padding-right:30px;
