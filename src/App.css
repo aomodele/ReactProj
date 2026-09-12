@@ -41,7 +41,7 @@ body{
   background-color: #f0f0f0;
 }
 .s-container{
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
