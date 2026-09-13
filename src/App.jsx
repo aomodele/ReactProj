@@ -23,9 +23,9 @@ function App() {
           <div className="form-container">
 
             <div className="form-blob">
-              <img src="/thumbnails/logo.png" alt="blob" className="blob-image blob-image--1" />
-              <img src="/thumbnails/logo.png" alt="blob" className="blob-image blob-image--2" />
-              <img src="/thumbnails/logo.png" alt="blob" className="blob-image blob-image--3" />
+              <img src={`${import.meta.env.BASE_URL}thumbnails/logo.png`}alt="blob" className="blob-image blob-image--1" />
+              <img src={`${import.meta.env.BASE_URL}thumbnails/logo.png`} alt="blob" className="blob-image blob-image--2" />
+              <img src={`${import.meta.env.BASE_URL}thumbnails/logo.png`} alt="blob" className="blob-image blob-image--3" />
             </div>
 
             <div className="form-header">
@@ -65,13 +65,13 @@ function App() {
               <div className="form-social">
                 {/* onClick calls our function directly - no addEventListener or querySelector needed */}
                 <button className="form-btn form-btn--social" onClick={() => handleSocialClick('Google')}>
-                  <img src="/thumbnails/google-icon.png" className="btn-icon" alt="social-icon" />
+                  <img src={`${import.meta.env.BASE_URL}thumbnails/google-icon.png`} className="btn-icon" alt="social-icon" />
                 </button>
                 <button className="form-btn form-btn--social" onClick={() => handleSocialClick('Apple')}>
-                  <img src="/thumbnails/Appleicon-nobg.png" className="btn-icon" alt="social-icon" />
+                  <img src={`${import.meta.env.BASE_URL}thumbnails/Appleicon-nobg.png`} className="btn-icon" alt="social-icon" />
                 </button>
                 <button className="form-btn form-btn--social" onClick={() => handleSocialClick('Facebook')}>
-                  <img src="/thumbnails/facebookicon.webp" className="btn-icon" alt="social-icon" />
+                  <img src={`${import.meta.env.BASE_URL}thumbnails/facebookicon.webp`}  className="btn-icon" alt="social-icon" />
                 </button>
               </div>
               <p>
@@ -95,9 +95,9 @@ function App() {
           <div className="form-container">
 
             <div className="form-blob">
-              <img src="/thumbnails/logo.png" alt="blob" className="blob-image blob-image--1" />
-              <img src="/thumbnails/logo.png" alt="blob" className="blob-image blob-image--2" />
-              <img src="/thumbnails/logo.png" alt="blob" className="blob-image blob-image--3" />
+              <img src={`${import.meta.env.BASE_URL}thumbnails/logo.png`}  alt="blob" className="blob-image blob-image--1" />
+              <img src={`${import.meta.env.BASE_URL}thumbnails/logo.png`}  alt="blob" className="blob-image blob-image--2" />
+              <img src={`${import.meta.env.BASE_URL}thumbnails/logo.png`}  alt="blob" className="blob-image blob-image--3" />
             </div>
 
             <div className="form-header">
@@ -131,13 +131,13 @@ function App() {
             <div className="form-bottom">
               <div className="form-social">
                 <button className="form-btn form-btn--social" onClick={() => handleSocialClick('Google')}>
-                  <img src="/thumbnails/google-icon.png" className="btn-icon" alt="social-icon" />
+                  <img src={`${import.meta.env.BASE_URL}thumbnails/google-icon.png`} className="btn-icon" alt="social-icon" />
                 </button>
                 <button className="form-btn form-btn--social" onClick={() => handleSocialClick('Apple')}>
-                  <img src="/thumbnails/Appleicon-nobg.png" className="btn-icon" alt="social-icon" />
+                  <img src={`${import.meta.env.BASE_URL}thumbnails/Appleicon-nobg.png`} className="btn-icon" alt="social-icon" />
                 </button>
                 <button className="form-btn form-btn--social" onClick={() => handleSocialClick('Facebook')}>
-                  <img src="/thumbnails/facebookicon.webp" className="btn-icon" alt="social-icon" />
+                  <img src={`${import.meta.env.BASE_URL}thumbnails/facebookicon.webp`} className="btn-icon" alt="social-icon" />
                 </button>
               </div>
               <p>
